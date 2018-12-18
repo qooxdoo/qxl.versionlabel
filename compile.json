@@ -1,0 +1,22 @@
+{
+  "targets": [
+    {
+      "type": "source",
+      "outputPath": "source-output"
+    },
+    {
+      "type": "build",
+      "outputPath": "build-output"
+    }
+  ],
+  "defaultTarget": "source",
+  "locales": ["en"],
+
+  "applications": [
+    {
+      "class": "qxl.versionlabel.demo.Application",
+      "theme": "qxl.versionlabel.theme.Theme",
+      "name": "qxl.versionlabel"
+    }
+  ]
+}

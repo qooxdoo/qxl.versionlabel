@@ -1,0 +1,33 @@
+{
+  "info" :
+  {
+    "name" : "versionlabel",
+
+    "summary" : "version label for qooxdoo demo apps",
+    "description" : "",
+
+
+    "license" : "MIT",
+    "authors" :
+    [
+      {
+        "name" : "First Author (uid)",
+        "email" : "first.author@some.domain"
+      }
+    ],
+
+    "version": "0.1.0",
+    "qooxdoo-range": "^6.0.0-alpha"
+  },
+
+  "provides" :
+  {
+    "namespace"   : "qxl.versionlabel",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation",
+    "type"        : "library"
+  }
+}
+
