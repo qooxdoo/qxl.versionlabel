@@ -10,7 +10,7 @@
         "email": "first.author@some.domain"
       }
     ],
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "provides": {
     "namespace": "qxl.versionlabel",
@@ -21,6 +21,6 @@
     "type": "library"
   },
   "requires": {
-      "qooxdoo-sdk": "^6.0.0-alpha"
+    "qooxdoo-sdk": "^6.0.0-alpha"
   }
 }
