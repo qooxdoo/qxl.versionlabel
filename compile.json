@@ -2,11 +2,11 @@
   "targets": [
     {
       "type": "source",
-      "outputPath": "source-output"
+      "outputPath": "compiled/source",
     },
     {
       "type": "build",
-      "outputPath": "build-output"
+      "outputPath": "compiled/build",
     }
   ],
   "defaultTarget": "source",
