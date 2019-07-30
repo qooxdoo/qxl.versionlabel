@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/qooxdoo/qooxdoo-compiler/master/resource/schema/v1/compile.json",
+	"environment": {
+		"qx.icontheme": "Tango"
+	},
+	"applications": [
+		{
+			"class": "qxl.apiviewer.Application",
+			"theme": "qxl.apiviewer.Theme",
+			"name": "apiviewer",
+			"title": "VersionLabel API",
+			"environment": {
+				"qx.icontheme": "Tango",
+				"excludeFromAPIViewer": [
+					"qxl.apiviewer.*",
+					"qx.*",
+					"qxWeb"
+				]
+			}
+		}
+	],    
+	"targets": [
+		{
+			"type": "source",
+			"outputPath": "compiled/source"
+		},
+		{
+			"type": "build",
+			"outputPath": "compiled/build"
+		}
+	],
+	"defaultTarget": "source",
+	"serve": {
+		"listenPort": 8080
+	}
+}                                                                                     
