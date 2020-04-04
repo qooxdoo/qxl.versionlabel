@@ -4,13 +4,8 @@
     "summary": "version label for qooxdoo demo apps",
     "description": "",
     "license": "MIT",
-    "authors": [
-      {
-        "name": "First Author (uid)",
-        "email": "first.author@some.domain"
-      }
-    ],
-    "version": "1.0.0-beta.3"
+    "version": "1.0.0",
+    "authors": []
   },
   "provides": {
     "namespace": "qxl.versionlabel",
