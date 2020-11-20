@@ -11,7 +11,7 @@
 			"title": "VersionLabel API",
 			"environment": {
 				"qx.icontheme": "Tango",
-				"excludeFromAPIViewer": [
+				"qxl.apiviewer.exclude": [
 					"qxl.apiviewer.*",
 					"qx.*",
 					"qxWeb"
