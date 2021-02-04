@@ -14,7 +14,7 @@
     "resource": "source/resource",
     "translation": "source/translation",
     "environmentChecks": {
-      "versionlabel.*": "qxl.versionlabel.VersionLabel"
+      "qxl.versionlabel.*": "qxl.versionlabel.VersionLabel"
     }
   },
   "requires": {
