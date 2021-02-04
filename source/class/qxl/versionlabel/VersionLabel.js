@@ -24,21 +24,17 @@ qx.Class.define("qxl.versionlabel.VersionLabel",
 {
   extend : qx.ui.basic.Label,
 
-  construct : function(value, version)
-  {
-    if (value == undefined)
-    {
+  construct : function(value, version) {
+    if (!value) {
       // if no parameter value given: use the environment variable
       value = qx.core.Environment.get("versionLabel.name");
     }
 
-    if (version == undefined)
-    {
+    if (!version) {
       // if no parameter value given: use the environment variable
       version = qx.core.Environment.get("versionLabel.version");
 
-      if (version == null)
-      {
+      if (!version) {
         // revision or version number as fallback
         version = qx.core.Environment.get("qx.revision");
         if (version == "") {
