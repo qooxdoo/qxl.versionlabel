@@ -13,9 +13,8 @@
     "class": "source/class",
     "resource": "source/resource",
     "translation": "source/translation",
-     "environmentChecks": {
+    "environmentChecks": {
       "versionlabel.*": "qxl.versionlabel.VersionLabel"
-      }
     }
   },
   "requires": {
