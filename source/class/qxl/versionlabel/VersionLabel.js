@@ -20,11 +20,10 @@
  * Slightly extended form of a @{qx.ui.basic.Label}, to include a version/
  * revision string of qooxdoo.
  */
-qx.Class.define("qxl.versionlabel.VersionLabel",
-{
-  extend : qx.ui.basic.Label,
+qx.Class.define("qxl.versionlabel.VersionLabel", {
+  extend: qx.ui.basic.Label,
 
-  construct : function(value, version) {
+  construct(value, version) {
     if (!value) {
       // if no parameter value given: use the environment variable
       value = qx.core.Environment.get("qxl.versionlabel.name");
@@ -43,11 +42,10 @@ qx.Class.define("qxl.versionlabel.VersionLabel",
       }
     }
 
-    this.base(arguments, value + " " + version);
+    super(value + " " + version);
   },
 
-
-  defer : function() {
+  defer() {
     /**
      * The name of the version label which is shown in the upper right corner.
      * Defaults to 'qooxdoo'.
@@ -59,5 +57,5 @@ qx.Class.define("qxl.versionlabel.VersionLabel",
      * Defaults to 'null' to be able to fallback to 'qx.revision' or 'qx.version' easily.
      */
     qx.core.Environment.add("qxl.versionlabel.version", null);
-  }
+  },
 });
