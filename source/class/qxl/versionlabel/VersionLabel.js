@@ -36,10 +36,10 @@ qx.Class.define("qxl.versionlabel.VersionLabel", {
       if (!version) {
         // revision or version number as fallback
         version = qx.core.Environment.get("qx.revision");
-        if (version == "") {
+        if (!version) {
           version = qx.core.Environment.get("qx.version");
         }
-        if (version == "") {
+        if (!version) {
           version = qx.core.Environment.get("qx.compiler.version");
         }
       }
