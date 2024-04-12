@@ -39,6 +39,9 @@ qx.Class.define("qxl.versionlabel.VersionLabel", {
         if (version == "") {
           version = qx.core.Environment.get("qx.version");
         }
+        if (version == "") {
+          version = qx.core.Environment.get("qx.compiler.version");
+        }
       }
     }
 
